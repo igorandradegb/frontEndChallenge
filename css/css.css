@@ -1,0 +1,283 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+}
+.text-white {
+    color: #ffffff;
+}
+header {
+    top: 0;
+    position: relative;
+    height: 400px;
+    background: #707070;
+}
+header h4 {
+    font: normal normal normal 20px/24px Helvetica Neue!important;
+    padding-top: 50px;
+    margin: 0
+}
+header h1 {
+    font: normal normal bold 40px/49px Helvetica Neue!important;
+    letter-spacing: 0;
+    margin: 0
+}
+header p {
+    font-size: 14px;
+    padding-top: 5px;
+}
+header svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vw;
+}
+.center {
+    text-align: center;
+}
+header .sm {
+    padding: 0 15px
+}
+header .button {
+    width: 160px!important;
+    height: 40px;
+    border: none;
+    color: #888888;
+    background: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 40px 0 0 35px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+header .button-sm {
+    width: 150px!important;
+    height: 40px;
+    border: none;
+    color: #888888;
+    background: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 20px 0 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.container {
+    max-width: 850px!important;
+}
+.help h4 {
+    font: normal normal normal 20px/24px Helvetica Neue!important;
+    letter-spacing: 0;
+    color: #888888;
+}
+.help p {
+    font: normal normal normal 12px/18px Helvetica Neue!important;
+    letter-spacing: 0;
+    color: #888888;
+}
+.help label[for=name], .container label[for=email],
+.help label[for=cpf] {
+    font: normal normal normal 12px/14px Helvetica Neue!important;
+    letter-spacing: 0;
+    color: #888888;
+}
+
+.help input[type=submit] {
+    width: 100%;
+    color: #888888;
+    background: white;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 0 0 0px;
+    cursor: pointer;
+    border: 1px solid #707070;
+    border-radius: 4px;
+}
+
+.help input[type=text] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.help label[for=male], .container label[for=female]  {
+    margin-right: 30px;
+    font: normal normal normal 12px/14px Helvetica Neue!important;
+    letter-spacing: 0;
+    color: #888888;
+}
+.special hr {
+    width: 37%;
+    border: 1px solid #888888;
+    border-radius: 5px;
+}
+.special .line{
+    height: 18px;
+    border-bottom: 1px solid black;
+    padding: 0 11%;
+    margin: 0 10px;
+}
+.special {
+    padding-top: 50px;
+}
+.special h4 {
+    padding-top: 8px;
+    padding-bottom: 20px;
+    font: normal normal bold 18px/16px Helvetica Neue!important;
+    letter-spacing: 0px;
+    color: #888888;
+}
+.special .name {
+    font: normal normal normal 14px/16px Helvetica Neue!important;
+    letter-spacing: 0px;
+    color: #888888;
+    margin: 5px 0;
+    padding: 0;
+}
+.special .desc {
+    font: normal normal normal 12px/16px Helvetica Neue!important;
+    letter-spacing: 0px;
+    color: #888888;
+    margin: 5px 0;
+    padding: 0;
+}
+.special .de {
+    font: normal normal normal 12px/16px Helvetica Neue!important;
+    letter-spacing: 0px;
+    color: #888888;
+    margin: 5px 0;
+    padding: 0;
+}
+.special .por {
+    font: normal normal bold 16px/16px Helvetica Neue!important;
+    letter-spacing: 0px;
+    color: #888888;
+    margin: 5px 0;
+    padding: 0;
+}
+.special .ou {
+    font: normal normal normal 12px/16px Helvetica Neue!important;
+    letter-spacing: 0px;
+    color: #888888;
+    margin: 5px 0;
+    padding: 0;
+}
+.special img {
+    width: 178px;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.special .product .button-comprar {
+    width: 178px;
+    color: #888888;
+    background: white;
+    padding: 1px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    border: 1px solid #707070;
+    border-radius: 4px;
+}
+
+.special .button-more-offers {
+    color: #888888;
+    background: white;
+    padding: 5px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 0 50px 0;
+    cursor: pointer;
+    border: 1px solid #707070;
+    border-radius: 4px;
+}
+
+.special .product {
+    padding: 20px 20px 0 20px;
+}
+.share hr {
+    width: 37%;
+    border: 1px solid #888888;
+    border-radius: 5px;
+}
+.share .line{
+    height: 18px;
+    border-bottom: 1px solid black;
+    padding: 0 9%;
+    margin: 0 10px;
+}
+.share p {
+    padding-top: 40px;
+    font: normal normal normal 14px/16px Helvetica Neue!important;
+    letter-spacing: 0px;
+    color: #888888;
+    text-align: center;
+}
+.share {
+    padding-top: 50px;
+}
+.share h4 {
+    padding-top: 8px;
+    font: normal normal bold 18px/16px Helvetica Neue!important;
+    letter-spacing: 0px;
+    color: #888888;
+}
+
+
+.share label[for=email-friend], .container label[for=name-friend]  {
+    margin-right: 30px;
+    font: normal normal normal 12px/14px Helvetica Neue!important;
+    letter-spacing: 0;
+    color: #888888;
+}
+
+.share input[type=text] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.share #error {
+    text-align: center;
+    font-size: 14px;
+}
+
+.share input[type=submit] {
+    color: #888888;
+    background: white;
+    padding: 8px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 40px 0 80px 0px;
+    cursor: pointer;
+    border: 1px solid #707070;
+    border-radius: 4px;
+}
+
+footer {
+    top: 0;
+    position: relative;
+    height: 300px;
+    background: #707070;
+    margin: 0;
+}
+
+footer svg {;
+    top: 0;
+    width: 100%;
+    height: 7vw;
+}
+
+footer p {;
+    padding-top: 60px;
+    font-size: 12px;
+}
